@@ -1,0 +1,69 @@
+Práctica 0:
+
+***Comandos explicados: ***
+* git clone - Se emplea para clonar repositorios en un nuevo directorio. En nuestro caso esta acción
+              se llevó a cabo desde Get from VCS, sin emplear el comando.
+* git status - Muestra los estados de los archivos del directorio de trabajo, cuáles se han modificado,
+               creado o borrado y los archivos que no están siendo considerados para el próximo commit,
+               en nuestro caso Conderana.txt se ha modificado y no está siendo considerado para el commit.
+
+               Logs:
+                    PS C:\Users\Elena\IdeaProjects\hello-world> git status
+                    On branch main
+                    Your branch is up to date with 'origin/main'.
+
+                    Changes to be committed:
+                      (use "git restore --staged <file>..." to unstage)
+                            deleted:    Conderana.txt
+                            new file:   Practica0.txt
+
+                    Changes not staged for commit:
+                      (use "git add <file>..." to update what will be committed)
+                      (use "git restore <file>..." to discard changes in working directory)
+                            modified:   Practica0.txt
+
+* git add - Añade un cambio del directorio de trabajo en el entorno de ensayo, indicando de este modo que en la próxima
+            confirmación se quieren incluir actualizaciones en un archivo.
+
+            Logs:
+                PS C:\Users\Elena\IdeaProjects\hello-world> git add .
+                warning: LF will be replaced by CRLF in Conderana.txt.
+                The file will have its original line endings in your working directory
+
+* git commit - Guarda los cambios realizados en el área de ensayo junto con una breve descripción.
+                Opción -m -> incluye una breve descripción de los cambios que se están realizando entre ""
+
+           Logs:
+               PS C:\Users\Elena\IdeaProjects\hello-world> git commit -m "practica 0"
+               [main 1b16956] practica 0
+                1 file changed, 26 insertions(+), 1 deletion(-)
+                rewrite Conderana.txt (100%)
+
+* git push - Carga contenido del repositorio local a un repositorio remoto en nuestro caso a nuestro repositorio de Github
+
+           Logs:
+               PS C:\Users\Elena\IdeaProjects\hello-world> git push
+               Enumerating objects: 5, done.
+               Counting objects: 100% (5/5), done.
+               Delta compression using up to 8 threads
+               Compressing objects: 100% (3/3), done.
+               Writing objects: 100% (3/3), 868 bytes | 868.00 KiB/s, done.
+               Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+               remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+               To https://github.com/Elconme/hello-world.git
+                  134f825..1b16956  main -> main
+
+* git checkout -
+
+*** Entorno de desarrollo JVM: ***
+
+    * Java 17
+        Logs:
+            java version "17.0.1" 2021-10-19 LTS
+    * Maven
+        Logs:
+
+
+
+
+
