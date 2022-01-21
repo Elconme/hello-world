@@ -21,9 +21,8 @@
                       (use "git restore <file>..." to discard changes in working directory)
                             modified:   Practica0.txt
 
-* git add - Añade un cambio del directorio de trabajo en el entorno de ensayo, indicando de este modo que en la próxima
-            confirmación se quieren incluir  en un archivo. Puede realizarse un add genérico indicado por
-            un punto (.) o uno concreto indicando el nombre del archivo en cuestión.
+* git add - Incluye los cambios (creación, modificación o eliminación) realizados en el directorio local en el próximo commit.
+            Puede realizarse un add genérico indicado por un punto (.) o uno concreto indicando el nombre del archivo en cuestión.
 
             Logs:
                 PS C:\Users\Elena\IdeaProjects\hello-world> git add .
@@ -55,6 +54,7 @@
                   1b16956..d74bd32  main -> main
 
 * git checkout - permite cambiar entre ramas y comprobar archivos y commits.
+
            Logs:
                PS C:\Users\Elena\IdeaProjects\hello-world> git checkout
                Your branch is ahead of 'origin/main' by 1 commit.
