@@ -54,7 +54,12 @@
                To https://github.com/Elconme/hello-world.git
                   1b16956..d74bd32  main -> main
 
-* git checkout -
+* git checkout - permite cambiar entre ramas y comprobar archivos y commits.
+           Logs:
+               PS C:\Users\Elena\IdeaProjects\hello-world> git checkout main
+               Already on 'main'
+               Your branch is up to date with 'origin/main'.
+
 
 *** Entorno de desarrollo JVM: ***
 
