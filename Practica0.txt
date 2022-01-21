@@ -1,4 +1,4 @@
-Práctica 0:
+##### Práctica 0 ####
 
 ***Comandos explicados: ***
 * git clone - Se emplea para clonar repositorios en un nuevo directorio. En nuestro caso esta acción
